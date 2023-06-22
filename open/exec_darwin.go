@@ -8,7 +8,7 @@ import (
 )
 
 func open(input string) *exec.Cmd {
-	return exec.Command("open", "-w", input)
+	return exec.Command("open", "-W", input)
 }
 
 func openWith(input string, appName string) *exec.Cmd {
